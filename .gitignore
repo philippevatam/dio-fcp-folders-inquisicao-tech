@@ -1,0 +1,29 @@
+
+---
+
+## .gitignore (recomendado) — na raiz do repo
+
+Cria um `.gitignore` pra garantir que ninguém cometa credenciais sem querer:
+
+```gitignore
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+terraform.tfvars
+*.tfvars
+
+# Credenciais (NUNCA versionar)
+*.json
+*.yaml
+*.yml
+
+# Editor/OS
+.DS_Store
+.vscode/
+.idea/
+
+# Libera apenas o exemplo (fictício)
+!terraform/example-credentials.yaml
+

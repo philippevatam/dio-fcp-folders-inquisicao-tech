@@ -1,0 +1,94 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.6 Chrome/140.0.7339.249 Electron/38.8.0 Safari/537.36" version="29.3.6">
+  <diagram id="inquisicao_tech" name="inquisicao_tech - Estrutura">
+    <mxGraphModel dx="1426" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="org" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;strokeWidth=2;" value="GCP Organization&#xa;(organizations/000000000000)&#xa;[FICTÍCIO]" vertex="1">
+          <mxGeometry height="80" width="320" x="390" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="company" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontSize=14;strokeWidth=2;" value="Folder Raiz: inquisicao_tech" vertex="1">
+          <mxGeometry height="60" width="320" x="390" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="org" style="endArrow=block;html=1;strokeWidth=2;" target="company">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ti" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;strokeWidth=2;" value="TI (2 técnicos)&#xa;Folder: TI" vertex="1">
+          <mxGeometry height="70" width="220" x="80" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="rh" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;strokeWidth=2;" value="RH (2 pessoas)&#xa;Folder: RH" vertex="1">
+          <mxGeometry height="70" width="220" x="340" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="fin" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;strokeWidth=2;" value="Financeiro (2 pessoas)&#xa;Folder: Financeiro" vertex="1">
+          <mxGeometry height="70" width="240" x="600" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="adm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;strokeWidth=2;" value="Administrativo (2 pessoas)&#xa;Folder: Administrativo" vertex="1">
+          <mxGeometry height="70" width="240" x="950" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="company" style="endArrow=block;html=1;strokeWidth=2;" target="ti">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="company" style="endArrow=block;html=1;strokeWidth=2;" target="rh">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="company" style="endArrow=block;html=1;strokeWidth=2;" target="fin">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="company" style="endArrow=block;html=1;strokeWidth=2;" target="adm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ti1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Técnico 1&#xa;(acesso só TI)" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ti2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Técnico 2&#xa;(acesso só TI)" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="eti1" edge="1" parent="1" source="ti" style="endArrow=block;html=1;" target="ti1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eti2" edge="1" parent="1" source="ti" style="endArrow=block;html=1;" target="ti2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rh1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="RH 1&#xa;(acesso só RH)" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="rh2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="RH 2&#xa;(acesso só RH)" vertex="1">
+          <mxGeometry height="60" width="120" x="460" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="erh1" edge="1" parent="1" source="rh" style="endArrow=block;html=1;" target="rh1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="erh2" edge="1" parent="1" source="rh" style="endArrow=block;html=1;" target="rh2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fin1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Fin 1&#xa;(acesso só Financeiro)" vertex="1">
+          <mxGeometry height="60" width="150" x="600" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="fin2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Fin 2&#xa;(acesso só Financeiro)" vertex="1">
+          <mxGeometry height="60" width="150" x="770" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="efin1" edge="1" parent="1" source="fin" style="endArrow=block;html=1;" target="fin1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="efin2" edge="1" parent="1" source="fin" style="endArrow=block;html=1;" target="fin2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Adm 1&#xa;(acesso só Administrativo)" vertex="1">
+          <mxGeometry height="60" width="170" x="950" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="adm2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" value="Adm 2&#xa;(acesso só Administrativo)" vertex="1">
+          <mxGeometry height="60" width="170" x="1170" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="eadm1" edge="1" parent="1" source="adm" style="endArrow=block;html=1;" target="adm1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eadm2" edge="1" parent="1" source="adm" style="endArrow=block;html=1;" target="adm2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="shape=note;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="Segregação (conceito):&#xa;- Grupos IAM por área (ti@, rh@, fin@, adm@)&#xa;- Permissões aplicadas no Folder de cada área&#xa;- Projetos/ambientes separados&#xa;&#xa;Placeholders do repositório:&#xa;- Billing: AAAAAA-BBBBBB-CCCCCC [FICTÍCIO]&#xa;- Credencial: example-credentials.yaml (admin_inqui_tech / *********)" vertex="1">
+          <mxGeometry height="160" width="620" x="320" y="460" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
