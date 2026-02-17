@@ -16,13 +16,13 @@ A segregação é representada de duas formas:
 2. **Terraform (GCP)**: criação de **Folders** por área e subfolders de ambientes/projetos
 
 ## 📌 Links importantes
-- Diagrama Draw.io: [`drawio/celulartech-estrutura.drawio`](./drawio/celulartech-estrutura.drawio)
+- Diagrama Draw.io: [`drawio/diagrama-inquisicao_tech.drawio`](./drawio/diagrama-inquisicao_tech.drawio)
 - Terraform: [`terraform/`](./terraform)
 
 ## 🧩 Como abrir o diagrama no Draw.io
 1. Abra https://app.diagrams.net/
 2. **File** → **Open from** → **Device**
-3. Selecione o arquivo `drawio/celulartech-estrutura.drawio`
+3. Selecione o arquivo `drawio/diagrama-inquisicao_tech.drawio`
 
 ## 🚀 Como usar o Terraform
 Veja instruções em: [`terraform/README.md`](./terraform/README.md)
