@@ -3,7 +3,7 @@
 Este repositório foi criado para o desafio da DIO: desenhar uma organização de grupos de acessos e uma organização utilizando o Draw.io e subir no GitHub.
 
 ## 🏢 Cenário
-Empresa fictícia: **CelularTech S.A.**
+Empresa fictícia: **Inquisicao Tech**
 
 A empresa possui áreas segregadas:
 - **TI (2 técnicos)**
